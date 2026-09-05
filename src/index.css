@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+.font-disney-title {
+  font-family: 'Cinzel', serif;
+}
+
+.font-disney-fun {
+  font-family: 'Fredoka', cursive, sans-serif;
+}
+
+.font-disney-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+/* 90s VHS nostalgic scanline effect */
+.retro-vhs-scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.28) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.04),
+    rgba(0, 255, 0, 0.02),
+    rgba(0, 0, 255, 0.04)
+  );
+  background-size: 100% 3px, 6px 100%;
+}
+
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 20s linear infinite;
+}
+
+/* Hide scrollbar for clean tab strips */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

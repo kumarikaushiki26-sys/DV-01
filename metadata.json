@@ -1,0 +1,8 @@
+{
+  "name": "Remix Disneyverse",
+  "description": "An enchanting portal to Disney movies, nostalgic 90s Renaissance history, interactive games, trivia facts, park updates, and vintage merch with dynamic day and night magic.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
